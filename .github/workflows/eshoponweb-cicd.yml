@@ -7,10 +7,9 @@ on: workflow_dispatch
 env:
  RESOURCE-GROUP: rg-eshoponweb-westeurope
  LOCATION: westeurope
-  TEMPLATE-FILE: infra/webapp.bicep
-  SUBSCRIPTION-ID: bfd5378b-3995-4a91-b546-a12be3c75336
-  WEBAPP-NAME:devops-webapp-westeurope-199218620
-
+ TEMPLATE-FILE: infra/webapp.bicep
+ SUBSCRIPTION-ID: bfd5378b-3995-4a91-b546-a12be3c75336
+ WEBAPP-NAME: devops-webapp-westeurope-2210526375
 
 jobs:
   #Build, test and publish .net web project in repository
